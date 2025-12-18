@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Evening Tour with Curator",
+        "type": "Event"
+    },
+    {
+        "id": 2,
+        "title": "Art Workshop for Kids",
+        "type": "Event"
+    },
+    {
+        "id": 3,
+        "title": "Sculpture Talk Series",
+        "type": "Event"
+    }
+]

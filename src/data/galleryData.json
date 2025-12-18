@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "The Starry Night",
+        "type": "Artwork"
+    },
+    {
+        "id": 2,
+        "title": "Dance (I)",
+        "type": "Artwork"
+    },
+    {
+        "id": 3,
+        "title": "The Dove",
+        "type": "Artwork"
+    }
+]
