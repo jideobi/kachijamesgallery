@@ -35,7 +35,7 @@ export default function HomePage() {
     return (
         < >
             <div className="flex flex-col items-center justify-center h-100">
-                <h1 className="">Welcome to Kachi Art Gallery</h1>
+                <h1 className="bg bg-yellow-900">Welcome to Kachi Art Gallery</h1>
                 <p>Home page....</p>
             </div>
         </>
