@@ -79,15 +79,15 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-md">
-          {["/", "/gallery", "/exhibitions", "/events", "/about"].map((path, idx) => (
+        <div className="md:hidden bg-white shadow-md pb-6 font-bold">
+          {["/", "/Gallery", "/Exhibitions", "/Contact", "/About", "/Donate"].map((path, idx) => (
             <Link
               key={idx}
               to={path}
-              className="block px-4 py-3 text-gray-800 hover:bg-gray-100"
+              className="block px-4 py-3  text-gray-800 hover:bg-gray-100"
               onClick={() => setIsOpen(false)}
             >
-              {path.replace("/", "") || "Home"}
+              {path.replace("/", "") }
             </Link>
           ))}
         </div>
@@ -114,7 +114,7 @@ export default function Navbar() {
               />
               <button
                 type="submit"
-                className="mt-4 w-full bg-[#12f00a] text-black font-semibold py-2 rounded-lg hover:bg-green-700 transition"
+                className="mt-4 w-full bg-green-600  text-white font-semibold py-2 rounded-lg hover:bg-green-700 transition"
               >
                 Search
               </button>
