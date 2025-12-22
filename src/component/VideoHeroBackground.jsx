@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function VideoHeroBackground() {
     return (
-        <div className="relative w-full h-[55vh] md:h-[85vh] overflow-hidden">
+        <div className="relative w-full h-[65vh] md:h-[85vh] overflow-hidden">
             {/* YouTube Video Background */}
             <iframe
                 className="absolute top-1/2 left-1/2 w-[250%] h-[170%] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
@@ -17,7 +17,7 @@ export default function VideoHeroBackground() {
             <div className="absolute inset-0 bg-black/60"></div>
 
             {/* Content */}
-            <div className="relative z-10 flex items-center justify-center h-full text-center px-6">
+            <div className="relative z-10 flex items-center justify-center mt-8 h-full text-center px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
