@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 export default function VideoHeroBackground() {
     return (
-        <div className="relative w-full h-[70vh] md:h-[85vh] overflow-hidden">
+        <div className="relative w-full h-[55vh] md:h-[85vh] overflow-hidden">
             {/* YouTube Video Background */}
             <iframe
-                className="absolute top-1/2 left-1/2 w-[120%]  h-[170%] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-                src="https://www.youtube.com/embed/PwYewBMlkJw?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playlist=PwYewBMlkJw"
+                className="absolute top-1/2 left-1/2 w-[250%] h-[170%] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+                src="https://www.youtube.com/embed/LIUULWX3bDo?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playlist=LIUULWX3bDo"
                 title="Background Video"
                 frameBorder="0"
                 allow="autoplay; fullscreen"
