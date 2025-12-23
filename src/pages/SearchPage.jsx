@@ -91,7 +91,8 @@ useEffect(() => {
         {filteredExhibitions.length > 0 ? (
           <div className="grid md:grid-cols-2 gap-6">
             {filteredExhibitions.map((ex) => (
-              <div key={ex.id} className="border rounded-lg p-4 shadow hover:shadow-lg transition">
+              <div key={ex.id} className=" rounded-lg p-4 shadow hover:shadow-lg transition">
+                <img src={ex.image} alt={ex.title} width={200} height={200}/>
                 <h3 className="font-bold text-lg">{highlightText(ex.title, searchQuery)}</h3>
                 <p className="text-gray-500">{ex.date}</p>
               </div>
