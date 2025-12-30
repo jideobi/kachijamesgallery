@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import exhibitions from "../data/exhibitionsData.json";
+import artworks from "../data/galleryData.json"
 import VideoHeroBackground from "../component/VideoHeroBackground";
 
 
@@ -10,6 +11,7 @@ const getStatus = (date) =>
 export default function HomePage() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [slidesToShow, setSlidesToShow] = useState(4);
+    const Artworks = artworks.slice(0, 4)
 
     // Handle responsiveness
     useEffect(() => {
@@ -31,7 +33,7 @@ export default function HomePage() {
             setCurrentIndex((prev) =>
                 prev + slidesToShow >= exhibitions.length ? 0 : prev + slidesToShow
             );
-        }, 5000); // 5 seconds
+        }, 10000); // 5 seconds
 
         return () => clearInterval(interval);
     }, [slidesToShow]);
@@ -66,6 +68,8 @@ export default function HomePage() {
             <div className="border-b-3  mx-4 sm:mx-8 md:mx-14 lg:mx-20 xl:mx-28"></div>
 
             {/* <div className="border-b-3 mx-6 md:mx-14 lg:mx-20 xl:mx-35"></div> */}
+
+
 
             {/* events */}
 
@@ -125,6 +129,70 @@ export default function HomePage() {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            {/* events end */}
+
+            <div className="bg-black md:flex justify-center md:px-28 py-16 gap-20">
+                <div className="md:w-[35%] px-4 md:px-0">
+                    <h1 className="font-extrabold text-3xl md:text-6xl mb-4 text-white">Artist</h1>
+                    <p className=" mb-4 text-white md:text-[20px]">Visit our contemporary art affiliate in Enugu State Nigeria for boundary-breaking ideas and experimental art.</p>
+                </div>
+                <div className="mx-4">
+                    <img
+                        src="https://i.ibb.co/vxSq6zx3/IMG-4375.avif"
+                        alt="Artwork"
+                        className=" h-100 w-200 object-cover rounded"
+                    />
+                </div>
+            </div>
+
+
+
+            {/* artworks */}
+            <section className="w-full py-20 flex justify-center flex-col md:flex-row ">
+
+                {/* LEFT SECTION */}
+                <div className="py-10 md:py-0 mx-4">
+                    <h2 className="text-4xl mb-4 font-extrabold">Art and Artists <br /> In our Collection</h2>
+
+
+                    <p className="text-gray-600 leading-relaxed text-[19px] mb-6 w-[70%]">
+                        Discover artworks that speak to you, from the 1880s to today.
+
+                    </p>
+
+                    <button className="mt-4 px-6 py-3 rounded-md bg-black text-white hover:bg-gray-800 transition">
+                        Find your favorites
+                    </button>
+                </div>
+
+                {/* RIGHT SECTION - GRID OF WORKS */}
+                <div className="grid lg:grid-cols-3 gap-6 mx-4">
+                    {Artworks.map((art) => (
+                        <div key={art.id} className="group relative rounded-lg overflow-hidden shadow-lg">
+
+                            <img
+                                src={art.img}
+                                alt={art.title}
+                                className="w-full h-52 object-cover group-hover:scale-105 transition duration-500"
+                            />
+
+                            <div className="p-3 bg-white">
+                                <h4 className="font-bold">{art.title}</h4>
+                                <p className="text-sm text-gray-500">{art.artist}</p>
+
+                                <a href={`/preview/${art.id}`}>
+                                    <button className="mt-2 text-sm px-4 py-1 border rounded-full hover:bg-black hover:text-white transition">
+                                        Preview
+                                    </button>
+                                </a>
+                            </div>
+
+                        </div>
+                    ))}
+                </div>
+
             </section>
 
 
