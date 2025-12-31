@@ -136,7 +136,7 @@ export default function HomePage() {
             <div className="bg-black md:flex justify-center md:px-28 py-16 gap-20">
                 <div className="md:w-[35%] px-4 md:px-0">
                     <h1 className="font-extrabold text-3xl md:text-6xl mb-4 text-white">Artist</h1>
-                    <p className=" mb-4 text-white md:text-[20px]">Visit our contemporary art affiliate in Enugu State Nigeria for boundary-breaking ideas and experimental art.</p>
+                    <p className=" mb-4 text-white md:text-[20px]">Visit our contemporary art gallery in Enugu State Nigeria for boundary-breaking ideas and experimental art.</p>
                 </div>
                 <div className="mx-4">
                     <img
@@ -158,7 +158,7 @@ export default function HomePage() {
 
 
                     <p className="text-gray-600 leading-relaxed text-[19px] mb-6 w-[70%]">
-                        Discover artworks that speak to you, from the 1880s to today.
+                        Discover artworks that speak to you, from the 1980s to today.
 
                     </p>
 
