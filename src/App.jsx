@@ -9,6 +9,7 @@ import Contact from './pages/Contact'
 import Donate from './pages/Donate'
 import Exhibition from './pages/Exhibition'
 import Gallery from './pages/Gallery'
+import GalleryDetailPage from './pages/GalleryDetailPage'
 import ExhibitionDetailPage from './pages/ExhibitionDetailPage'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/exhibitions" element={<Exhibition />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/artworks/:id" element={<GalleryDetailPage />} />
         <Route path="/exhibitions/:id" element={<ExhibitionDetailPage />} />
       </Routes>
       <Footer />

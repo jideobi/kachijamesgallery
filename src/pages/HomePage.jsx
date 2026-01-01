@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import exhibitions from "../data/exhibitionsData.json";
 import artworks from "../data/galleryData.json"
 import VideoHeroBackground from "../component/VideoHeroBackground";
+//import EmailSubscriptionForm from "./EmailSubscriptionForm";
 
 
 const getStatus = (date) =>
@@ -182,11 +183,17 @@ export default function HomePage() {
                                 <h4 className="font-bold">{art.title}</h4>
                                 <p className="text-sm text-gray-500">{art.artist}</p>
 
-                                <a href={`/preview/${art.id}`}>
+                                {/* <a href={`/artworks/${art.id}`}>
                                     <button className="mt-2 text-sm px-4 py-1 border rounded-full hover:bg-black hover:text-white transition">
                                         Preview
                                     </button>
-                                </a>
+                                </a> */}
+                                <Link
+                                    to={`/artworks/${art.id}`}
+                                    className="inline-block mt-3 text-sm font-semibold text-green-600"
+                                >
+                                    View more →
+                                </Link>
                             </div>
 
                         </div>
@@ -194,6 +201,17 @@ export default function HomePage() {
                 </div>
 
             </section>
+
+
+            {/* <section className="bg-[#111] text-white mb-20 py-20 px-6 md:px-20 text-center">
+                <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Stay Inspired</h2>
+                <p className="text-gray-300 md:w-[55%] mx-auto text-[18px] leading-relaxed mb-8">
+                    Join thousands of art lovers. Receive exhibition invites, artwork releases,
+                    and exclusive gallery updates directly from Kachi James Gallery.
+                </p>
+
+                <EmailSubscriptionForm />
+            </section> */}
 
 
         </>
