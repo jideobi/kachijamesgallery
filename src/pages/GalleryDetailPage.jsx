@@ -81,7 +81,7 @@ export default function GalleryDetailPage() {
 
                 <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-6">
                     {Artworks.slice(0, 4).map((item) => (
-                        <Link key={item.id} to={`/preview/${item.id}`}>
+                        <Link key={item.id} to={`/artworks/${item.id}`}>
                             <div className="group">
                                 <img
                                     src={item.img}

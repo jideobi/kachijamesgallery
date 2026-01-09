@@ -1,29 +1,40 @@
 [
   {
-    "id": "modern-africa",
-    "title": "Modern Visions of Africa",
-    "date": "2025-03-12",
-    "description": "An exploration of contemporary African artists redefining identity, memory, and form.",
-    "image": "https://i.ibb.co/PZ3pt1jg/IMG-2962.avif"
+    "id": "Electro-africa",
+    "title": "Electro Afro Punk",
+    "subtitle": "Identity, Memory & Contemporary Expression",
+    "startDate": "2026-03-12",
+    "endDate": "2026-06-20",
+    "image": "https://i.ibb.co/MyZ82Mgy/IMG-4463.jpg",
+    "location": "Main Gallery Hall",
+    "description": "An exploration of contemporary African artists redefining identity, memory, and form through modern artistic language."
   },
   {
-    "id": "abstract-dialogues",
-    "title": "Abstract Dialogues",
-    "date": "2025-01-10",
+    "id": "The-Unveiling-of-the-Artist",
+    "title": "The Unveiling of the Artist",
+    "subtitle": "Identity, Memory & Contemporary Expression",
+    "startDate": "2026-03-12",
+    "endDate": "2026-06-20",
+    "location": "Main Gallery Hall",
     "description": "A cross-continental conversation in abstraction and color theory.",
-    "image": "https://i.ibb.co/qFs5gF6T/IMG-6837-1.jpg"
+    "image": "https://i.ibb.co/Kz7nD93D/IMG-4462.jpg"
   },
   {
     "id": "light-space",
     "title": "Light & Space",
-    "date": "2026-07-01",
+      "subtitle": "Identity, Memory & Contemporary Expression",
+    "startDate": "2026-03-12",
+    "endDate": "2026-06-20",
+    "location": "Main Gallery Hall",
     "description": "Immersive installations exploring perception, light, and architecture.",
     "image": "https://i.ibb.co/wNkt5Rrf/IMG-1279.avif"
   },
   {
     "id": "women-in-art",
     "title": "Women in Art",
-    "date": "2024-11-02",
+    "subtitle": "Identity, Memory & Contemporary Expression",
+    "startDate": "2026-03-12",
+    "endDate": "2026-06-20",
     "description": "Celebrating generations of women artists shaping global art history.",
     "image": "https://i.ibb.co/CK6QKVw4/Construction-32-acrylic-on-canvas-10-x-14-inches-2025.jpg"
   }
