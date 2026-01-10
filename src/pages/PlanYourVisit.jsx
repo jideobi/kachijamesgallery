@@ -63,7 +63,7 @@ export default function PlanYourVisit() {
             <Phone className="w-7 h-7 text-black" />
             <div>
               <h3 className="font-bold text-xl mb-1">Contact</h3>
-              <p className="text-gray-600">+234 XXX XXX XXXX</p>
+              <p className="text-gray-600">+234 80 6852 8195</p>
             </div>
           </div>
         </div>
