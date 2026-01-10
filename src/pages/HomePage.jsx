@@ -5,7 +5,7 @@ import exhibitions from "../data/exhibitionsData.json";
 import artworks from "../data/galleryData.json"
 import VideoHeroBackground from "../component/VideoHeroBackground";
 //import EmailSubscriptionForm from "./EmailSubscriptionForm";
-import PartnersSection from "../component/PartnersSection";
+//import PartnersSection from "../component/PartnersSection";
 
 
 const getStatus = (date) =>
@@ -64,10 +64,10 @@ export default function HomePage() {
                 </div>
                 <div>
                     <p className=" pb-5">The gallery is open 19:30pm - 5:30pm. today</p>
-                    <p className="p-2 text-center font-bold bg-black text-white w-[50%]">Plan your visit</p>
+                    <Link to="/planyourvisit" className="py-2 px-6 text-center  font-bold bg-black text-white w-[50%]">Plan your visit</Link>
                 </div>
             </div>
-            <div className="border-b-3  mx-4 sm:mx-8 md:mx-14 lg:mx-20 xl:mx-28"></div>
+            <div className="border-b-3 mt-3 mx-4 sm:mx-8 md:mx-14 lg:mx-20 xl:mx-28"></div>
 
             {/* <div className="border-b-3 mx-6 md:mx-14 lg:mx-20 xl:mx-35"></div> */}
 
@@ -202,7 +202,7 @@ export default function HomePage() {
                 </div>
 
             </section>
-<PartnersSection />
+
 
             {/* <section className="bg-[#111] text-white mb-20 py-20 px-6 md:px-20 text-center">
                 <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Stay Inspired</h2>

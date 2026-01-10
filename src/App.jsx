@@ -11,6 +11,9 @@ import Exhibition from './pages/Exhibition'
 import Gallery from './pages/Gallery'
 import GalleryDetailPage from './pages/GalleryDetailPage'
 import ExhibitionDetailPage from './pages/ExhibitionDetailPage'
+import PartnersSection from './component/PartnersSection'
+import PlanYourVisit from './pages/PlanYourVisit'
+
 
 function App() {
 
@@ -26,9 +29,11 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/exhibitions" element={<Exhibition />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/planyourvisit" element={<PlanYourVisit />} />
         <Route path="/artworks/:id" element={<GalleryDetailPage />} />
         <Route path="/exhibitions/:id" element={<ExhibitionDetailPage />} />
       </Routes>
+      <PartnersSection />
       <Footer />
     </>
   )
