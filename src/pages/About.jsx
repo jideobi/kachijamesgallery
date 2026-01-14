@@ -35,7 +35,7 @@ export default function About() {
 
                     <div className="relative">
                         <img
-                            src="https://i.ibb.co/vxSq6zx3/IMG-4375.avif"
+                            src="https://i.ibb.co/nMkW9SDx/IMG-3015.avif"
                             alt="Gallery interior"
                             className="rounded-2xl shadow-xl"
                         />
