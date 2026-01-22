@@ -1,28 +1,63 @@
 [
-  {
-    "id": 1,
-    "title": "Woman with the Flower",
-    "artist": "Kachi James",
-    "img": "https://i.ibb.co/SXWnKSTW/IMG-4140.jpg"
-  },
-  {
-    "id": 2,
-    "title": "The Silent Drum",
-    "artist": "Tammy Okoye",
-    "description": "An abstract painting of a drum.",
-    "img": "https://i.ibb.co/fdwLR0kw/IMG-4145.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Dreams in Blue",
-    "artist": "Ola Daniels",
-    "img": "https://i.ibb.co/RTfwHqrQ/IMG-4144.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Modern Tribe",
-    "artist": "Michelle Musa",
-    "img": "https://i.ibb.co/spzK2gRv/Channel-of-intuition-acrylic-on-canvas-48-x-72-inches-2025.jpg"
-  }
+ {
+  "id": 1,
+  "title": "The Hair dresser",
+  "artist": "Chiagoziem Orji",
+  "medium": "Acrylic paint on paper",
+  "size": "25 by 20 inches",
+  "year": "2025",
+  "description": "In the lively world of hair salons, where scissors, snip, clippers buzz, and chatter fills the air, I found myself immersed in a tapestry of human connection and self-expression. Memories flooded in from past salon visits - where gossip mingled with hair dye fumes, exclamations rang out, and debates sparked like fireworks. Amidst this whirlwind, beauty blossomed in the intricate hair designs, mirroring the rich tapestry of our cultural heritage. My art style intertwines these shared experiences, celebrating how our hairstyles not only shape our faces but also narrate the tales of our lives. With every stroke of my brush, I strive to capture the heart of our shared human experience, where culture, community, and creativity blend seamlessly like the strands of our hair.",
+  "img": "https://i.ibb.co/zVpdxZX2/image3.jpg"
+},
+ {
+  "id": 2,
+  "title": "Line Life",
+  "artist": "Moses Ibanga ",
+  "medium": "Acrylic paint on paper",
+  "size": "25 by 20 inches",
+  "year": "2025",
+  "description": "\"Life Line\" is a portrait of the indigenous people. It depicts the cumulative effect of the socio-cultural and political landscape. It is certain that the closeness of men to the natural earth as we once knew it is largely disconnected as a result of our inaction and negligence. This has led to poor productivity. The three sedentary farmers plowing and sowing suggest the struggle and triumph of the indigenous people. They thrive in the face of suppression, invasion, and meager support.",
+  "img": "https://i.ibb.co/Z1xkrjd2/image-lastest.jpg"
+},
+ {
+  "id": 3,
+  "title": "Twin Sisters",
+  "artist": "Uchendu S. Mbele",
+  "medium": "90 cm X 74 cm",
+  "size": "90 cm X 74 cm",
+  "year": "2018",
+
+  "img": "https://i.ibb.co/67p5BpqY/immage-latest-2.jpg"
+},
+{
+  "id": 4,
+  "title": "Channel of Intuition",
+  "artist": "Chiagoziem Orji",
+  "medium": "Acrylic on Canvas",
+  "size": "48 x 72 inches",
+  "year": "2025",
+  "description": "In this painting, I explore intuition and question its nature through composition. I believe that when we become self-aware, the mind organizes itself in a way that allows connection to a higher source—something I regard as divine. Through this connection, the mind attracts frequencies that become beneficial to us based on our personal needs.",
+  "img": "https://i.ibb.co/spzK2gRv/Channel-of-intuition-acrylic-on-canvas-48-x-72-inches-2025.jpg"
+},
+{
+  "id": 5,
+  "title": "Depth of grief",
+  "artist": "Chiagoziem Orji",
+  "medium": "Acrylic on Canvas",
+  "size": "48 x 72 inches",
+  "year": "2025",
+  "description": "In this painting, I am interested in using my composition to explore my understanding of intuition and raise questions about its nature. I think that when we become self-aware, our mind gets organized in such a way that it is able to connect to a source—something I would regard as \"Divine\"—and attract frequencies that would be beneficial to us based on our personal needs.",
+  "img": "https://i.ibb.co/bRM24QGk/Whats-App-Image-2026-01-14-at-2-29-36-AM.jpg"
+},
+{
+  "id": 6,
+  "title": "Hope",
+  "artist": "Chiagoziem Orji",
+  "medium": "Acrylic paint and charcoal on paper",
+  "size": "25 by 20 inches",
+  "year": "2025",
+  "description": "In a world where the future seems uncertain, the wisdom of our elders often feels like a distant memory. Yet, even in the darkest of times, a glimmer of hope remains. Imagine the vibrant sound of red beads clashing as little girls laugh and play, racing each other to the stream. Does this timeless tale still live on, or will it be forever etched only in the whispers of our ancestors?",
+  "img": "https://i.ibb.co/1W7WN7g/image2.jpg"
+}
   
 ]

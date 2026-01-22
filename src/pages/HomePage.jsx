@@ -164,9 +164,9 @@ export default function HomePage() {
 
                     </p>
 
-                    <button className="mt-4 px-6 py-3 rounded-md bg-black text-white hover:bg-gray-800 transition">
+                    <Link to="/gallery" className="mt-4 px-6 py-3 rounded-md bg-black text-white hover:bg-gray-800 transition">
                         Find your favorites
-                    </button>
+                    </Link>
                 </div>
 
                 {/* RIGHT SECTION - GRID OF WORKS */}
