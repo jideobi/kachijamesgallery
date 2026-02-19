@@ -8,8 +8,12 @@ import VideoHeroBackground from "../component/VideoHeroBackground";
 //import PartnersSection from "../component/PartnersSection";
 
 
-const getStatus = (date) =>
-    new Date(date) > new Date() ? "Upcoming" : "Closed";
+const getStatus = (start, end) => {
+    const now = new Date();
+    if (now < new Date(start)) return "Upcoming";
+    if (now > new Date(end)) return "Closed";
+    return "Ongoing";
+};
 export default function HomePage() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [slidesToShow, setSlidesToShow] = useState(4);
@@ -87,6 +91,7 @@ export default function HomePage() {
                     </div>
 
                     <div className="overflow-hidden ">
+
                         <div
                             className="flex transition-transform duration-700 ease-in-out"
                             style={{
@@ -106,14 +111,20 @@ export default function HomePage() {
                                             className="h-72 w-full object-cover group-hover:scale-105 transition"
                                         />
 
-                                        <span
-                                            className={`absolute top-4 left-4 px-3 py-1 text-xs font-semibold rounded-full ${getStatus(ex.date) === "Upcoming"
-                                                ? "bg-green-600 text-white"
-                                                : "bg-gray-800 text-white"
-                                                }`}
-                                        >
-                                            {getStatus(ex.date)}
-                                        </span>
+                                        {/* STATUS BADGE */}
+                                        {/* <span
+                  className={`absolute top-6 left-6 px-4 py-1 text-xs font-semibold rounded-full
+                    ${
+                      status === "Upcoming"
+                        ? "bg-green-600 text-white"
+                        : status === "Ongoing"
+                        ? "bg-black text-white"
+                        : "bg-gray-600 text-white"
+                    }`}
+                >
+                    
+                  {status}
+                </span> */}
 
                                         <div className="p-4 bg-white">
                                             <h3 className="font-semibold text-lg">{ex.title}</h3>

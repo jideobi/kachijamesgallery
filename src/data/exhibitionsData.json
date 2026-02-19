@@ -3,8 +3,8 @@
     "id": "Electro-africa",
     "title": "Electro Afro Punk",
     "subtitle": "Identity, Memory & Contemporary Expression",
-    "startDate": "2026-03-12",
-    "endDate": "2026-06-20",
+    "startDate": "2025-03-12",
+    "endDate": "2025-06-20",
     "image": "https://i.ibb.co/MyZ82Mgy/IMG-4463.jpg",
     "location": "Main Gallery Hall",
     "description": "An exploration of contemporary African artists redefining identity, memory, and form through modern artistic language."
@@ -13,29 +13,22 @@
     "id": "The-Unveiling-of-the-Artist",
     "title": "The Unveiling of the Artist",
     "subtitle": "Identity, Memory & Contemporary Expression",
-    "startDate": "2026-03-12",
-    "endDate": "2026-06-20",
+    "startDate": "2023-03-12",
+    "endDate": "2023-06-20",
     "location": "Main Gallery Hall",
     "description": "A cross-continental conversation in abstraction and color theory.",
     "image": "https://i.ibb.co/Kz7nD93D/IMG-4462.jpg"
   },
-  {
-    "id": "light-space",
-    "title": "Light & Space",
-      "subtitle": "Identity, Memory & Contemporary Expression",
-    "startDate": "2026-03-12",
-    "endDate": "2026-06-20",
-    "location": "Main Gallery Hall",
-    "description": "Immersive installations exploring perception, light, and architecture.",
-    "image": "https://i.ibb.co/wNkt5Rrf/IMG-1279.avif"
-  },
-  {
-    "id": "women-in-art",
-    "title": "Women in Art",
-    "subtitle": "Identity, Memory & Contemporary Expression",
-    "startDate": "2026-03-12",
-    "endDate": "2026-06-20",
-    "description": "Celebrating generations of women artists shaping global art history.",
-    "image": "https://i.ibb.co/CK6QKVw4/Construction-32-acrylic-on-canvas-10-x-14-inches-2025.jpg"
-  }
+ {
+  "id": "women-in-art",
+  "title": "CALL FOR FEMALE ARTISTS",
+  "subtitle": "This Woman; That Woman — a powerful exhibition celebrating the strength, depth, beauty, and complexity of women through art.",
+  "startDate": "2026-03-12",
+  "endDate": "2026-06-20",
+  "description": "Are you a female artist with a story to tell? This is your moment. Your voice. Your canvas. Let your art speak for this woman and that woman — the seen, the unseen, the remembered, the becoming.",
+  "location": "Main Gallery Hall",
+  "submissionText": "Submit Your Artwork",
+  "image": "https://i.ibb.co/qSt6Qr1/call-for-artist-women-day-event-jpg.jpg"
+}
+
 ]

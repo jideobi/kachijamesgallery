@@ -32,7 +32,7 @@ export default function ExhibitionsPage() {
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition"
             >
               {/* IMAGE */}
-              <div className="relative h-80 overflow-hidden">
+              <div className="relative h-90 overflow-hidden">
                 <img
                   src={ex.image}
                   alt={ex.title}
