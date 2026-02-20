@@ -72,7 +72,7 @@ export default function Donation() {
             />
           </div>
 
-          <button className="w-full text-lg rounded-xl bg-gradient-to-r from-pink-500 to-purple-200 hover:opacity-90 p-3 font-semibold">
+          <button className="w-full text-lg rounded-xl bg-black border border-white/20 hover:opacity-90 p-3 font-semibold">
             Donate ${amount}
           </button>
 
