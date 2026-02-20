@@ -67,7 +67,7 @@ export default function HomePage() {
                     <p className=" font-bold mb-4">Explore art and ideas at Kachi James Gallery</p>
                 </div>
                 <div>
-                    <p className=" pb-5">The gallery is open 9:30pm - 5:30pm. today</p>
+                    <p className=" pb-5">The gallery is open 9:30am - 5:30pm. today</p>
                     <Link to="/planyourvisit" className="py-2 px-6 text-center  font-bold bg-black text-white w-[50%]">Plan your visit</Link>
                 </div>
             </div>
