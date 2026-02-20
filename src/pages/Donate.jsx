@@ -7,7 +7,7 @@ export default function Donation() {
   const presets = [10, 25, 50, 100];
 
   return (
-    <div className="py-48 bg-gradient-to-br from-black via-gray-400 to-black text-white p-6 ">
+    <div className="py-48 bg-black text-white p-6 ">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ export default function Donation() {
           <motion.div
             animate={{ scale: [1, 1.05, 1] }}
             transition={{ repeat: Infinity, duration: 2 }}
-            className="inline-flex items-center gap-2 text-pink-400"
+            className="inline-flex items-center gap-2 text-white"
           >
             <Heart /> Made with love for art
           </motion.div>
@@ -76,7 +76,7 @@ export default function Donation() {
             Donate ${amount}
           </button>
 
-          <p className="text-xs text-black/60 text-center">
+          <p className="text-xs text-white/60 text-center">
             Secure donations — thank you for supporting creativity ✨
           </p>
         </div>
