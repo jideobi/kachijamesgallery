@@ -13,6 +13,7 @@ import GalleryDetailPage from './pages/GalleryDetailPage'
 import ExhibitionDetailPage from './pages/ExhibitionDetailPage'
 import PartnersSection from './component/PartnersSection'
 import PlanYourVisit from './pages/PlanYourVisit'
+import Newsletter from './component/Newsletter'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/planyourvisit" element={<PlanYourVisit />} />
         <Route path="/artworks/:id" element={<GalleryDetailPage />} />
         <Route path="/exhibitions/:id" element={<ExhibitionDetailPage />} />
+        <Route path="/newsletter" element={<Newsletter />} />
       </Routes>
       <PartnersSection />
       <Footer />

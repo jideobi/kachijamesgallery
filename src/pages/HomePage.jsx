@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import exhibitions from "../data/exhibitionsData.json";
 import artworks from "../data/galleryData.json"
 import VideoHeroBackground from "../component/VideoHeroBackground";
+import Newsletter from "../component/Newsletter";
 //import EmailSubscriptionForm from "./EmailSubscriptionForm";
 //import PartnersSection from "../component/PartnersSection";
 
@@ -213,6 +214,8 @@ export default function HomePage() {
                 </div>
 
             </section>
+
+            <Newsletter />
 
 
             {/* <section className="bg-[#111] text-white mb-20 py-20 px-6 md:px-20 text-center">
