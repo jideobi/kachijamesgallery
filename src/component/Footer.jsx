@@ -57,7 +57,7 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-4">Contact</h3>
           <ul className="space-y-2 text-sm">
             <li>Email: info@kachijamesgallery.com</li>
-            <li>Phone: +234 80 6852 8195</li>
+            <li>Phone: +234 702 573 4038</li>
             <li>Location: Enugu State Nigeria</li>
           </ul>
         </div>

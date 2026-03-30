@@ -37,11 +37,11 @@ export default function Contact() {
             <div className="space-y-3 text-gray-700">
               <div className="flex items-center gap-4">
                 <FiMail />
-                <span>info@kachijamesgallery.com</span>
+                <span>kachijamesgallery1@gmail.com</span>
               </div>
               <div className="flex items-center gap-4">
                 <FiPhone />
-                <span>+234 80 6852 8195</span>
+                <span>+234 702 573 4038</span>
               </div>
             </div>
           </div>

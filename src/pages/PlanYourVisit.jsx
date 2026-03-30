@@ -31,8 +31,9 @@ export default function PlanYourVisit() {
             <div>
               <h3 className="font-bold text-xl mb-1">Location</h3>
               <p className="text-gray-600">
-                Kachi James Gallery<br />
-                Enugu State, Nigeria
+                Olive Gate Hotel Junction, 1 Snapp Drive, <br />
+                Independence Layout, Enugu 410001, Enugu State, Nigeria.
+
               </p>
             </div>
           </div>
@@ -63,7 +64,7 @@ export default function PlanYourVisit() {
             <Phone className="w-7 h-7 text-black" />
             <div>
               <h3 className="font-bold text-xl mb-1">Contact</h3>
-              <p className="text-gray-600">+234 80 6852 8195</p>
+              <p className="text-gray-600">+234 702 573 4038</p>
             </div>
           </div>
         </div>
